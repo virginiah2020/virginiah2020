@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body {
+    font-family: monospace;
+    color: brown;
+    margin:0;
+}
+.logo-image{
+    width: 80px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color:rgb(194, 144, 194);
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.sectionA{
+    background-image: url(https://as2.ftcdn.net/jpg/00/82/97/53/500_F_82975357_8UlK1TYHfSFO3NFBd3adc0SXF5YM2hg0.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(194, 144, 194);
+    align-items: center;
+}
+ul{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    letter-spacing: 4px;
+}
+.menu div{
+    margin:5px;
+    height: 3px;
+    width: 20px;
+    background-color:whitesmoke;
+}
+#sectionB{
+    margin-top: 20vh;
+    padding:0 20px;
+    color: #d7385e;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+    align-items:e;
+}
+#sectionB p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#sectionB h1{
+    font-size: 40px;
+}
+.hotels{
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+}
+.Nairobi{
+    width: 50%;
+    height:15vh
+    
+}
+
+ .left,.right{
+     width: 50%;
+ }
+.click{
+    padding: 10px;
+    color: #d7385e;
+    background-color:rgb(194, 144, 194);
+    margin: 10px;
+
+}
+a:hover{
+    background-color: burlywood;
+    padding: 8px;
+}
+
