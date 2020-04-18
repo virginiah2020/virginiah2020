@@ -4,7 +4,7 @@
 }
 body {
     font-family: monospace;
-    color: brown;
+    color:#d7385e;
     margin:0;
 }
 .logo-image{
@@ -22,10 +22,10 @@ header{
 }
 
 .sectionA{
-    background-image: url(https://as2.ftcdn.net/jpg/00/82/97/53/500_F_82975357_8UlK1TYHfSFO3NFBd3adc0SXF5YM2hg0.jpg);
+    background-image: url(https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: auto;
 }
 nav{
@@ -34,7 +34,7 @@ nav{
     background-color:rgb(194, 144, 194);
     align-items: center;
 }
-ul{
+ nav ul{
     justify-content: space-around;
     display: flex;
     list-style: none;
@@ -47,15 +47,15 @@ ul{
     background-color:whitesmoke;
 }
 #sectionB{
-    margin-top: 20vh;
+    margin: 20vh;
     padding:0 20px;
-    color: #d7385e;
+    color:#d7385e;
     display: flex;
     justify-content:space-evenly;
     flex-direction: row-reverse;
     align-items:e;
 }
-#sectionB p {
+#sectionB p,#about p,#contacts p,#contacts h4 {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -69,8 +69,8 @@ ul{
     top: 30%;
 }
 .Nairobi{
-    width: 50%;
-    height:15vh
+    width: 100%;
+    height:100%
     
 }
 
@@ -88,4 +88,14 @@ a:hover{
     background-color: burlywood;
     padding: 8px;
 }
+#sectionC{
+    margin: 20vh;
+    display: flex;
+    flex-direction: row;
+}
 
+#contacts,#about{
+    width: 50%;
+    padding: 10px;
+    margin: 30px;
+}
